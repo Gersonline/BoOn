@@ -41,6 +41,6 @@
             <li><a href="#">Contato</a></li>
         </ul>
     </nav>
-        <?php include 'Menu.html';?>
+        <?php include 'Menu.php';?>
 </body>
 </html>
