@@ -15,17 +15,17 @@
     <nav class="menu">
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Serviçoes</a>
+            <li><a href="#">Quem Somos</a>
                 <ul>
                     <li>
-                        <a href="#">Criação de Sites</a>
+                        <a href="#">Objetivos</a>
                     </li>
                     <li>
                         <a href="#">Arte Visual</a>
                     </li>
                 </ul>
             </li>
-            <li><a href="#">Cursos</a>
+            <li><a href="#">Disciplinas</a>
                 <ul>
                     <li>
                         <a href="#">Java</a>
