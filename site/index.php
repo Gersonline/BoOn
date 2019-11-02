@@ -21,7 +21,7 @@
                         <a href="#">Objetivos</a>
                     </li>
                     <li>
-                        <a href="#">Arte Visual</a>
+                        <a href="#">Metodos</a>
                     </li>
                 </ul>
             </li>
