@@ -65,6 +65,20 @@
 	#bt_menu{
 		display: none;
 	}
+
+	#divfoto{
+		position: relative;
+    	top: 0px;
+    	left: 550px;
+    	right: 0px;
+	}
+	#divlogout{
+		position: relative;
+    	top: -3px;
+    	left: 500px;
+    	right: 0px;
+	}
+
 	label[for="bt_menu"]{
 			display: none;
 	}

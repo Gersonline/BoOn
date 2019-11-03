@@ -30,7 +30,8 @@ oci_free_statement($stid);
 if($nrows == "1")
 {
 	$_SESSION['usuario'] = $NmUsu;
-	header('Location:painel.php');
+	session_start();
+	header('Location:index.php?log=S');
 	exit();
 }
 else

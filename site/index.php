@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,6 +16,7 @@
 
     <nav class="menu">
         <ul>
+            <li><a href="#">Home</a></li>
             <li><a href="#">Quem Somos</a>
                 <ul>
                     <li>
@@ -32,17 +36,37 @@
                         <a href="#">Photoshop</a>
                     </li>
                     <li>
-                        <a href="#">´HTML/CSS</a>
+                        <a href="#">HTML/CSS</a>
                     </li>
                 </ul>
             </li>
             <li><a href="#">Contato</a></li>
+            <?php if (isset($_REQUEST['log']) == "S"){?>
+                <li>
+                    <div id="divfoto">
+                        <img width="100" height="50" src="..\imagens\user-account-management-logo-user-icon.png">
+                    </div>
+                </li>
+                <li>
+                    <div id="divlogout">
+                        <u><font><a style="border:0;" href="doLogout.php">logout</a></font></u>
+                    </div>
+                </li>
+            <?php }?>
         </ul>
     </nav>
 </body>
 <body>
-    <div style="position: static">
-        <?php include 'Menu.php';?>
+    <div align="center">
+        <?php
+        if (isset($_REQUEST['log'])){
+            $Tela = "painel.php";
+        }else{
+            $Tela = "Menu.php";
+        }
+
+            include $Tela;
+        ?>
     </div>
 </body>
 </html>
