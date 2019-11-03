@@ -30,13 +30,16 @@ session_start();
             <li><a href="#">Disciplinas</a>
                 <ul>
                     <li>
-                        <a href="#">Java</a>
+                        <a href="#">Sistemas Operacionais</a>
                     </li>
                     <li>
-                        <a href="#">Photoshop</a>
+                        <a href="#">Redes</a>
                     </li>
                     <li>
-                        <a href="#">HTML/CSS</a>
+                        <a href="#">Banco de Dados</a>
+                    </li>
+                    <li>
+                        <a href="#">Estrutura e Modelagem de BD</a>
                     </li>
                 </ul>
             </li>

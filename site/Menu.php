@@ -39,7 +39,7 @@
         </div>
         <div align="center">
             <font color="navy">UM PROJETO DE ALUNOS DA FACULDADE:</font><br>
-            <a href="https://vemprafam.com.br/" class="custom-logo-link" rel="home"><img width="110" height="31" src="https://vemprafam.com.br/wp-content/uploads/2019/06/logo-1.png" class="custom-logo" alt="Fam">
+            <a href="https://vemprafam.com.br/" class="custom-logo-link" rel="home"><img width="110" height="31" src="..\imagens\logo-fam.png" class="custom-logo" alt="Fam">
             </a>
         </div>
     </section>
