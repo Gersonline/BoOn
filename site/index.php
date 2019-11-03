@@ -7,14 +7,12 @@
 </head>
 <link rel="stylesheet" type="text/css" href="estilo.css">
 <body>
-<body>
     <input type="checkbox" id="bt_menu">
     <label for="bt_menu">&#9776;</label>
 
 
     <nav class="menu">
         <ul>
-            <li><a href="#">Home</a></li>
             <li><a href="#">Quem Somos</a>
                 <ul>
                     <li>
@@ -41,6 +39,10 @@
             <li><a href="#">Contato</a></li>
         </ul>
     </nav>
+</body>
+<body>
+    <div style="position: static">
         <?php include 'Menu.php';?>
+    </div>
 </body>
 </html>

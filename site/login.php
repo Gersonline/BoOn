@@ -35,7 +35,8 @@ if($nrows == "1")
 }
 else
 {
-	header('Location:index.php');
+	echo  "<script>alert('Senha Inválida!');
+			document.location = 'index.php'</script>";
 }
 
 //fecha a conexão atual

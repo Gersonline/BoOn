@@ -2,24 +2,22 @@
 <html>
     
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sistema de Login - PHP</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <meta charset="utf-8">    
+    <title>BoOn</title>
     <link rel="stylesheet" href="css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 
 <body>
-    <section class="hero is-success is-fullheight">
+        <div class="site-branding" align="center">
+        <a href="https://vemprafam.com.br/" class="custom-logo-link" rel="home"><img width="110" height="31" src="..\imagens\BoOn.png" class="custom-logo" alt="BoOn">
+        </a>
+    </div>
+    <section class="">
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div class="column is-4 is-offset-4">
-                    <h3 class="title has-text-grey">Sistema de Login</h3>
-                    <div class="notification is-danger">
-                      <p>ERRO: Usuário ou senha inválidos.</p>
-                    </div>
+                    <h3 class="title has-text-grey">Entrar</h3>
                     <div class="box">
                         <form action="login.php" method="POST">
                             <div class="field">
@@ -38,6 +36,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div align="center">
+            <font color="navy">UM PROJETO DE ALUNOS DA FACULDADE:</font><br>
+            <a href="https://vemprafam.com.br/" class="custom-logo-link" rel="home"><img width="110" height="31" src="https://vemprafam.com.br/wp-content/uploads/2019/06/logo-1.png" class="custom-logo" alt="Fam">
+            </a>
         </div>
     </section>
 </body>
