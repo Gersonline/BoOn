@@ -13,6 +13,7 @@
 
     <nav class="menu">
         <ul>
+            <li><a href="#">Home</a></li>
             <li><a href="#">Quem Somos</a>
                 <ul>
                     <li>
@@ -42,11 +43,13 @@
             <li><a href="#">Contato</a></li>
             <?php if (isset($_REQUEST['log']) == "S"){?>
                 <li>
-                    <a style="border:0;" href="doLogout.php">logout</a>
-                </li>
-                <li>
                     <div id="divfoto">
                         <img width="100" height="50" src="..\imagens\user-account-management-logo-user-icon.png">
+                    </div>
+                </li>
+                <li>
+                    <div id="divlogout">
+                        <u><font><a style="border:0;" href="doLogout.php">logout</a></font></u>
                     </div>
                 </li>
             <?php }?>
