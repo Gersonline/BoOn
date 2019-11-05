@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,7 +13,6 @@ session_start();
 
     <nav class="menu">
         <ul>
-            <li><a href="#">Home</a></li>
             <li><a href="#">Quem Somos</a>
                 <ul>
                     <li>
@@ -46,13 +42,11 @@ session_start();
             <li><a href="#">Contato</a></li>
             <?php if (isset($_REQUEST['log']) == "S"){?>
                 <li>
-                    <div id="divfoto">
-                        <img width="100" height="50" src="..\imagens\user-account-management-logo-user-icon.png">
-                    </div>
+                    <a style="border:0;" href="doLogout.php">logout</a>
                 </li>
                 <li>
-                    <div id="divlogout">
-                        <u><font><a style="border:0;" href="doLogout.php">logout</a></font></u>
+                    <div id="divfoto">
+                        <img width="100" height="50" src="..\imagens\user-account-management-logo-user-icon.png">
                     </div>
                 </li>
             <?php }?>
