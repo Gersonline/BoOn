@@ -1,4 +1,5 @@
 <?php
+session_start();
 include('conexao.php');
 
 if(empty($_POST['usuario']) || empty($_POST['senha']))
@@ -16,7 +17,7 @@ where NAME_USER = '{$user}'
 and USER_PASS = '{$password}'";
 $stid = oci_parse($Oracle, $query) or die ("erro");
 
-OCIDefineByName($stid,"NAME_USER",$NmUsu);
+OCIDefineByName($stid,"NM_CPL",$NmUsu);
 
 OCIExecute($stid);
 
